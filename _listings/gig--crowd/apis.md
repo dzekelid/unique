@@ -7,11 +7,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Unique
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/unique/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
 apis:
+- name: GIG & Crowd - Get Art Unique Details
+  x-api-slug: apiv1artuniquedetails-get
+  description: Get art unique details.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/unique/master/_listings/gig--crowd/apiv1artuniquedetails-get-openapi.md
+- name: GIG & Crowd - Get Event Unique Details
+  x-api-slug: apiv1eventuniquedetails-get
+  description: Get event unique details.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/unique/master/_listings/gig--crowd/apiv1eventuniquedetails-get-openapi.md
+- name: GIG & Crowd - Get Gigme Artist Unique Details
+  x-api-slug: apiv1gigmeartistuniquedetails-get
+  description: Get gigme artist unique details.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/unique/master/_listings/gig--crowd/apiv1gigmeartistuniquedetails-get-openapi.md
+- name: GIG & Crowd - Get Gigme Event Unique Details
+  x-api-slug: apiv1gigmeeventuniquedetails-get
+  description: Get gigme event unique details.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
+  humanURL: https://gigandcrowd.com
+  baseURL: https://gigandcrowd.com//
+  tags: Events, Concerts, Entertainment, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/unique/master/_listings/gig--crowd/apiv1gigmeeventuniquedetails-get-openapi.md
 - name: GIG & Crowd - Get Gigme Place Placeunique
   x-api-slug: apiv1gigmeplaceplaceunique-get
   description: Get gigme place placeunique.

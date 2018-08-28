@@ -3,9 +3,9 @@ swagger: "2.0"
 x-collection-name: GIG & CROWD
 x-complete: 0
 info:
-  title: GIGANDCROWD Get Gigme Place Placeunique
+  title: GIGANDCROWD Get Gigme Event Unique Details
   version: 1.0.0
-  description: Get gigme place placeunique.
+  description: Get gigme event unique details.
 host: gigandcrowd.com
 basePath: /
 schemes:
@@ -81,22 +81,6 @@ paths:
       - Event
       - Unique
       - Details
-  /api/v1/gigme/place/{placeUnique}:
-    get:
-      summary: Get Gigme Place Placeunique
-      description: Get gigme place placeunique.
-      operationId: getApiV1GigmePlacePlaceunique
-      x-api-path-slug: apiv1gigmeplaceplaceunique-get
-      parameters:
-      - in: path
-        name: placeUnique
-      responses:
-        200:
-          description: OK
-      tags:
-      - Gigme
-      - Place
-      - Placeunique
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
